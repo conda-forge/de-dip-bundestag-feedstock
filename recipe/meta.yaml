@@ -26,7 +26,7 @@ requirements:
 
 test:
   imports:
-    - deutschland
+    - deutschland.dip_bundestag
   commands:
     - pip check
   requires:
