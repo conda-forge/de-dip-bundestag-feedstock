@@ -1,13 +1,13 @@
 {% set name = "de-dip-bundestag" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/de-dip-bundestag-{{ version }}.tar.gz
-  sha256: edb1a033a42f1c3809db1c56fa5db8e53d4ab35d937607939e5db8fc1c893687
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 7abf4205f92d599294ab3828861ec20f224ccf8b546573e7eaa0e9acb771c078
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ about:
   home: https://github.com/bundesAPI/dip-bundestag-api
   summary: 'Bundestag: Dokumentations- und Informationssystem für Parlamentsmaterialien'
   license: Apache-2.0
-  license_file: 
+  license_file:
     - LICENSE
 
 extra:
