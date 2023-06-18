@@ -1,11 +1,11 @@
-About de-dip-bundestag
-======================
+About de-dip-bundestag-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/de-dip-bundestag-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bundesAPI/dip-bundestag-api
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/de-dip-bundestag-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bundestag: Dokumentations- und Informationssystem für Parlamentsmaterialien
 
